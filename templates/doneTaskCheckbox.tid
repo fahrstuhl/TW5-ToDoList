@@ -1,0 +1,10 @@
+created: 20151213143701897
+creator: fahrstuhl
+modified: 20151213143810575
+modifier: fahrstuhl
+tags: internal Template
+title: doneTaskCheckbox
+
+<$checkbox tag="Done">
+{{||doneTask}}
+</$checkbox>

@@ -1,0 +1,9 @@
+created: 20151213143532712
+creator: fahrstuhl
+modified: 20151213143614042
+modifier: fahrstuhl
+priority: PRIO
+tags: Template internal
+title: doneTask
+
+{{!!priority}} <$view field="modified" format="date" template="YYYY-MM-DD hh:mm"/> ~~<$link to={{!!title}}><$view field="title"/></$link>~~

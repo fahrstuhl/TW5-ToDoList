@@ -1,0 +1,8 @@
+created: 20160105135005690
+creator: fahrstuhl
+modified: 20160105135311828
+modifier: fahrstuhl
+tags: internal Template
+title: todoListPriority
+
+{{!!priority}}{{||todoList}}

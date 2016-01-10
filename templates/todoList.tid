@@ -1,0 +1,8 @@
+created: 20151213142424516
+creator: fahrstuhl
+modified: 20160105135000456
+modifier: fahrstuhl
+tags: internal Template
+title: todoList
+
+<$link to={{!!title}}><$view field="title"/></$link>

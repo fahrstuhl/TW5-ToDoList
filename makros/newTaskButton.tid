@@ -1,0 +1,16 @@
+created: 20151213132932166
+creator: fahrstuhl
+modified: 20160107153818156
+modifier: fahrstuhl
+tags: internal $:/tags/Macro
+title: Makro: newTaskButton(tags:"task" icon:"NewTodoIcon.png")
+
+\define newTaskButton(tags:"task" icon:"NewTodoIcon.png")
+<$button class=<<tv-config-toolbar-class>>>
+<$action-sendmessage $message="tm-new-tiddler" tags="$tags$" priority=""/>
+[img width=32 [$icon$]]
+</$button>
+\end
+;`icon:"NewTodoIcon.png"`
+:defaul Icon:[img width=32 [NewTodoIcon.png]], [[NewTodoIcon.png]]
+:Kann beliebiger Image Tiddler sein

@@ -1,0 +1,9 @@
+{
+    "title": "$:/plugins/fahrstuhl/tw5-todo-list",
+    "description": "a todo-list plugin",
+    "author": "fahrstuhl",
+    "version": "0.0.1",
+    "core-version": ">=5.1.9",
+    "source": "https://github.com/fahrstuhl/tw5-todo-list",
+    "plugin-type": "plugin"
+}

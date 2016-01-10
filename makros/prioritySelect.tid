@@ -1,0 +1,15 @@
+created: 20160105135923990
+creator: fahrstuhl
+modified: 20160110215453925
+modifier: fahrstuhl
+tags: $:/tags/Macro internal
+title: Makro: prioritySelect()
+
+\define prioritySelect()
+<$select field="priority">
+<option>CN</option>
+<option>ON</option>
+<option>OTH</option>
+</$select>
+\end
+<<prioritySelect>>

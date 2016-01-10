@@ -1,0 +1,18 @@
+created: 20151213134414492
+creator: fahrstuhl
+modified: 20160109120738626
+modifier: fahrstuhl
+tags: internal $:/tags/Macro
+title: Makro: newTodoList(tags:"task" template:"todoListCheckbox")
+
+\define newTodoList(tags:"task" template:"todoListCheckbox")
+<$list filter="[!has[draft.of]search:tags[$tags$]!tag[Done]!sort[modified]sort[priority]]">
+
+{{||$template$}}
+
+</$list>
+\end
+;`template:"todoList"`, `template:"todoListPriority"` oder `template:"todoListCheckbox"`
+
+:Taskliste immutable [[ohne|todoList]] oder [[mit|todoListPriority]] Priorität
+:Taskliste [[mutable|todoListCheckbox]] mit Priorität als Dropdown und Done als Checkbox

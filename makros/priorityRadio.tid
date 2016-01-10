@@ -1,0 +1,13 @@
+created: 20160105134052387
+creator: fahrstuhl
+modified: 20160105134343006
+modifier: fahrstuhl
+tags: $:/tags/Macro internal
+title: Makro: priorityRadio()
+
+\define priorityRadio()
+<$radio field="priority" value="CN"> Critical Now</$radio><br/>
+<$radio field="priority" value="ON"> Opportunity Now</$radio><br/>
+<$radio field="priority" value="OTH"> Over the Horizon</$radio><br/>
+\end
+<<priorityRadio>>

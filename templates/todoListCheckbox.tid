@@ -1,0 +1,11 @@
+created: 20151213142504770
+creator: fahrstuhl
+modified: 20160105140140850
+modifier: fahrstuhl
+tags: internal Template
+title: todoListCheckbox
+
+<$checkbox tag="Done">
+<<prioritySelect>>
+{{||todoList}}
+</$checkbox>
