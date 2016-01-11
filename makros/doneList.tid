@@ -6,7 +6,7 @@ tags: internal $:/tags/Macro
 title: Makro: doneList(tags:"task" template:"doneTaskCheckbox" date:"<heute>")
 
 \define doneList(tags:"task" template:"doneTaskCheckbox" date:"<today>")
-<$set name=today value=<<now "YYYYMMDD">> >
+<$set name=today value=<<now "YYYY0MM0DD">> >
 
 <$list filter="[!has[draft.of]search:tags[$tags$]tag[Done]sort[priority]sort[modified]sameday$date$]">
 
