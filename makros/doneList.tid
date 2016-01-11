@@ -5,8 +5,8 @@ modifier: fahrstuhl
 tags: internal $:/tags/Macro
 title: Makro: doneList(tags:"task" template:"doneTaskCheckbox" date:"<heute>")
 
-\define doneList(tags:"task" template:"doneTaskCheckbox" date:"[20151213]")
-<$set name=heute value=<<now "YYYYMMDD">> >
+\define doneList(tags:"task" template:"doneTaskCheckbox" date:"<today>")
+<$set name=today value=<<now "YYYYMMDD">> >
 
 <$list filter="[!has[draft.of]search:tags[$tags$]tag[Done]sort[priority]sort[modified]sameday$date$]">
 
@@ -19,7 +19,7 @@ title: Makro: doneList(tags:"task" template:"doneTaskCheckbox" date:"<heute>")
 :Tasks ohne oder mit Checkbox anzeigen lassen
 ;`date:[20151213]`
 :Tasks, die exakt an diesem Datum abgeschlossen wurden
-;`date:<heute>`
+;`date:<today>`
 :Tasks, die heute abgeschlossen wurden. Bezieht sich auf das aktuelle Datum
 ;`date:{!!created}`
 :Tasks, die am selben Tag abgeschlossen wurden, an dem der Tiddler angelegt wurde
